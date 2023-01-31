@@ -71,7 +71,8 @@ nav a:hover {
   align-items: center;
 }
 #home img {
-  width: 400px;
+  width: 330px;
+  border-radius: 10px;
 }
 .animation p {
   color: #ccd6f6;
