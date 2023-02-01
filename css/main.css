@@ -73,26 +73,29 @@ nav a:hover {
 }
 #home img {
   margin-top: 50px;
-  width: 360px;
+  width: 350px;
   border-radius: 10px;
+}
+.animation{
+  width:fit-content;
 }
 .animation p {
   color: #ccd6f6;
-  font-size: 30px;
+  font-size: 28px;
   font-weight: bold;
   text-transform: capitalize;
   width: 0;
   overflow: hidden;
   border-right: solid 2px rgba(255, 255, 255, 0.757);
   white-space: nowrap;
-  animation: width 5s steps(40) both, cursor 0.7s infinite;
+  animation: width 5s steps(35) both, cursor 0.7s infinite;
 }
 @keyframes width {
   from {
     width: 0;
   }
   to {
-    width: 315px;
+    width: 330px;
   }
 }
 @keyframes cursor {
